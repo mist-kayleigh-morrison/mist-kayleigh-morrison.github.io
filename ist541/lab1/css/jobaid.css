@@ -1,0 +1,67 @@
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+body {
+	background-color: #FFFFFF; /* background color */
+	color: #505430; /* text color for the entire page */
+	text-align:center; /* centers h1 and h2 content */
+}
+
+h1 { font-family: 'Gloria Hallelujah', cursive;
+}
+h2 { 
+	text-align:center; /* centers h1 and h2 content */
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width: 85%;
+	margin: 0 auto; /* centers wrapper */
+	font-size: 90%;
+font-family: 'Montserrat', sans-serif;
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:10px;
+	text-align:left;
+	background-color:#505430;
+	color: #faf3dd;          /* text color for the entire page */
+	font-weight: bold;
+	font-size: 120%;
+	font-family: 'Caveat', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Montserrat', sans-serif;
+ }
+
+.stepContent{ 
+	background-color: #fefae0;
+	padding:7px;
+	text-align:left;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.stepDescription {
+	color: #2D2F1C;          /* text color for the entire page */
+	width:55%;
+	padding:5px;
+	text-align:left;
+	line-height:145%;
+}
+
+.stepImage {
+	width:40%;	
+	padding:5px;
+	text-align: center;
+}
+
+.stepImage img {
+    width:100%;
+    height:auto;
+}
+
+strong {
+  font-weight: 800;
+}
