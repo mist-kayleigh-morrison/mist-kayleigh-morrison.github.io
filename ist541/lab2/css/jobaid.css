@@ -38,8 +38,14 @@ font-family: 'Montserrat', sans-serif;
 	-webkit-border-bottom-right-radius:15px;
  }
 
+.tip {
+	background-color: #FBB8C4;
+	padding:10px;
+	border-radius:15px;		
+}
+
 .stepContent{ 
-	background-color: #fefae0;
+	background-color: #FFF2D6;
 	padding:7px;
 	text-align:left;
 	display: flex;
@@ -68,12 +74,17 @@ font-family: 'Montserrat', sans-serif;
 .stepImage img {
     width:100%;
     height:auto;
-	-webkit-border-top-left-radius:15px;
-    -webkit-border-top-right-radius:15px;
-    -webkit-border-bottom-left-radius:15px;
-	-webkit-border-bottom-right-radius:15px;
+	-webkit-border-top-left-radius:7px;
+    -webkit-border-top-right-radius:7px;
+    -webkit-border-bottom-left-radius:7px;
+	-webkit-border-bottom-right-radius:7px;
 }
 
 strong {
-  font-weight: 800;
+  font-weight: 700;
+}
+
+.material-icons {
+	color:red; 
+	font-size:2em;
 }
