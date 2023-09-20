@@ -51,10 +51,10 @@ font-family: 'Montserrat', sans-serif;
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: center;
-	-webkit-border-top-left-radius:15px;
-    -webkit-border-top-right-radius:15px;
-    -webkit-border-bottom-left-radius:15px;
-	-webkit-border-bottom-right-radius:15px;
+	webkit-border-top-left-radius:15px;
+    webkit-border-top-right-radius:15px;
+    webkit-border-bottom-left-radius:15px;
+	webkit-border-bottom-right-radius:15px;
 }
 
 .stepDescription {
@@ -74,10 +74,10 @@ font-family: 'Montserrat', sans-serif;
 .stepImage img {
     width:100%;
     height:auto;
-	-webkit-border-top-left-radius:7px;
-    -webkit-border-top-right-radius:7px;
-    -webkit-border-bottom-left-radius:7px;
-	-webkit-border-bottom-right-radius:7px;
+	webkit-border-top-left-radius:7px;
+    webkit-border-top-right-radius:7px;
+    webkit-border-bottom-left-radius:7px;
+	webkit-border-bottom-right-radius:7px;
 }
 
 strong {
@@ -86,5 +86,5 @@ strong {
 
 .material-icons {
 	color:red; 
-	font-size:2em;
+	font-size:3em;
 }

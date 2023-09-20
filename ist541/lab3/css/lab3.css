@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	text-align: center;
+	background-color: #FFFFFF; 
+	color: #123457
+}
+
+
+a:hover {
+	font-size:200%;
+	background-color: your_color_of_choice; 
+	color: your_color_of_choice; 
+}
+
+a {
+	padding: 5px;
+	rounding: 30px;
+	margin: 10px;
+	font-size: 125%;
+	background-color: #123457; 
+	color: #AB995D; 
+}
