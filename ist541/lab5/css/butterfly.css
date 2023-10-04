@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #92986F; /* background color */
+	color: #505430; /* text color for the entire page */
+	text-align:center; /* centers h1 and h2 content */
+	color: #B53D3D;          /* text color for the entire document */
+	font-size: 20px;
+}
+
+h1 { font: montserrat;
+}
+h2 { 
+	text-align:center; /* centers h1 and h2 content */
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width: 85%;
+	margin: 0 auto; /* centers wrapper */
+	font-size: 90%;
+font-family: 'Montserrat', sans-serif;
+}
+
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #butterfly.jpg {
+display: none; /*shows content */
+border: black 5px solid;
+}
+ 
+ #butterfly-eating {
+display: none; /* hides content */
+border: black 5px solid;
+}
+
+.choices {
+cursor: pointer;
+}
+
+body {
+	background-color: #F0E6D6; /* background color */
+	color: #505430; /* text color for the entire page */
+	text-align:center; /* centers h1 and h2 content */
+}
+
+h1 { font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 150%;
+}
+h2 { 
+	text-align:center; /* centers h1 and h2 content */
+	font-size: 100%;
+}
+
+}
+h3 { 
+	text-align:center; /* centers h1 and h2 content */
+	font-size: 80%;
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width: 85%;
+	margin: 0 auto; /* centers wrapper */
+	font-size: 90%;
+font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+	font-size:125%;
+	background-color: your_color_of_choice; 
+	color: your_color_of_choice; 
+}
+
+a {
+	padding: 5px;
+	rounding: 50px;
+	margin: 10px;
+	font-size: 105%;
+	background-color: #505430; 
+	color: #F0E6D6; 
+	font-weight: semi-bold
+}
+
+.stepTitle{
+	padding:10px;
+	text-align:left;
+	background-color:#505430;
+	color: #faf3dd;          /* text color for the entire page */
+	font-weight: bold;
+	font-size: 120%;
+	font-family: 'Caveat', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Montserrat', sans-serif;
+	-webkit-border-top-left-radius:15px;
+    -webkit-border-top-right-radius:15px;
+    -webkit-border-bottom-left-radius:15px;
+	-webkit-border-bottom-right-radius:15px;
+ }
+iframe { 
+border: black 5px solid;
+}
+
+

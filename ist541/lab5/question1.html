@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>question1</title>
+<link href="css/butterfly.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Gloria+Hallelujah&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Caveat:wght@400;500;600;700&family=Gloria+Hallelujah&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Paytone+One&display=swap" rel="stylesheet">
+
+</head>	
+
+<body>
+<div id="wrapper">
+
+<a href="question1.html"> Fun Fact</a>
+<a href="question2.html"> Butterfly Quiz</a>
+ 
+<h1>How does a butterfly taste its food?</h1>
+	
+
+ 
+<h3 id="hint">Hint: Hover over the image below to find out!</h3>
+ 
+<img onmouseenter="showAnswer()" id="butterfly"  src="img/butterfly.jpg" width="300" height="300" alt="" />
+ 
+<img onmouseleave="hideAnswer()" id="butterfly-eating" src="img/butterfly-eating.jpeg" width="300" height="300" alt="" />
+	
+
+<div id="answer"></div>  <!-- This is a placeholder to display the answer-->
+ 
+</div> <!-- closing  “wrapper” -->
+	
+	<script>
+ function showAnswer() {
+	   $("#butterfly").hide();
+	   $("#butterfly-eating").show();
+	   $("#answer").html("<h2>With its feet!</h2>");
+	}
+
+function hideAnswer() {
+	   $("#butterfly").show();
+	   $("#butterfly-eating").hide();
+	   $("#answer").html("");  
+	}
+</script>
+	
+		<br>
+	
+<body>
+<div>
+	
+<h1>Click the video below to see how a butterfly eats:</h1>
+	 
+<h2> </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KkbrcySYUNg?si=gPHuHJd32SwGbYll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	
+</div> <!-- closing  “wrapper” -->
+
+</body>
+</html>

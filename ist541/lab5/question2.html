@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>question2</title>
+<link href="css/butterfly.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Gloria+Hallelujah&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Caveat:wght@400;500;600;700&family=Gloria+Hallelujah&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Paytone+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	  <div id="wrapper">
+		  
+<a href="question1.html"> Fun Fact</a>
+<a href="question2.html"> Butterfly Quiz</a>
+		  
+<h1>How does a butterfly taste its food?</h1>
+<h3>Click on one of the following choices</h3>
+
+<h2 onclick="wrongAnswer1()" class="choices"> With its antennae </h2>
+<h2 onclick="wrongAnswer2()" class="choices"> With its tongue </h2>
+<h2 onclick="rightAnswer()" class="choices"> With its feet </h2>
+
+
+<div id="feedback"></div>
+<img id="butterfly-eating" src="img/butterfly-eating.jpeg" width= "400" height= "300"/>
+</div>
+	
+<script>
+     function rightAnswer(){
+         $("#feedback").html("<h2 style='color:green'> Correct! Butterflies can taste food with their feet.</h2>");
+         $("#butterfly-eating").show();
+      }
+	 function wrongAnswer1(){
+      $("#feedback").html("<h2 style='color:red'> Antennaes help with balance, not eating! </h2>");
+      $("#butterfly-eating").hide();
+   }
+   function wrongAnswer2(){
+      $("#feedback").html("<h2 style='color:red'> Butterflies do not have tongues.</h2>");
+      $("#butterfly-eating").hide();
+   }
+
+</script>
+
+
+</body>
+</html>
